@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Senior Golfer's Playbook — Walt Fairbanks</title>
+<meta name="description" content="Play better after 60 by swinging smarter, not harder. 40 chapters, 12 drills, and 4 bonus tools by Walt Fairbanks.">
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '{PIXEL}');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent', {content_name: 'Senior Golfers Playbook landing', content_ids: ['{PRODUCT_ID}'], content_type: 'product'});
+var SRC = new URLSearchParams(location.search).get('src') || 'direct';
+document.addEventListener('click', function(e){
+  var a = e.target.closest('a.btn');
+  if (a) fbq('track', 'InitiateCheckout', {content_ids: ['{PRODUCT_ID}'], content_type: 'product', content_category: SRC});
+});
+</script>
+<style>
+:root {
+  --paper:#FAF9F4; --paper2:#F0EEE4; --ink:#20281F; --soft:#4A5348;
+  --green:#175A33; --green2:#2C7A4B; --gtint:#E5EFE7;
+  --blue:#3E7CB1; --blue2:#6FA3CE; --btint:#E4EEF6;
+  --red:#8A3324; --rule:#D8D6C8;
+  --serif:"Iowan Old Style",Palatino,Georgia,"Times New Roman",serif;
+  --sans:"Avenir Next",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:19px;line-height:1.55}
+.wrap{max-width:680px;margin:0 auto;padding:0 22px}
+.hero{background:linear-gradient(165deg,#175A33,#1E6B3E 60%,#14472A);color:var(--paper);padding:54px 0 46px;border-bottom:6px solid var(--blue)}
+.kicker{font-size:13px;letter-spacing:.22em;text-transform:uppercase;color:var(--blue2);margin-bottom:18px}
+h1{font-family:var(--serif);font-weight:700;font-size:clamp(34px,7vw,52px);line-height:1.05;margin-bottom:18px}
+.hero .sub{font-family:var(--serif);font-style:italic;font-size:clamp(19px,3.4vw,24px);line-height:1.4;color:#E5EFE7;margin-bottom:26px}
+.hero .meta{font-size:15px;color:#BFD7C9;margin-bottom:26px}
+.btn{display:block;text-align:center;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;font-size:21px;padding:18px 26px;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.28);transition:transform .12s}
+.btn:hover{transform:translateY(-2px)}
+.btn small{display:block;font-weight:400;font-size:14px;opacity:.92;margin-top:3px}
+.price{font-family:var(--serif);font-size:34px;margin:22px 0 14px}
+.price s{color:#9DB8A8;font-size:24px;margin-right:10px}
+.price .tag{font-size:14px;font-family:var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--blue2);display:block;margin-top:2px}
+section{padding:44px 0}
+h2{font-family:var(--serif);color:var(--green);font-size:clamp(26px,5vw,34px);line-height:1.15;margin-bottom:18px}
+h3{font-family:var(--serif);color:var(--green);font-size:21px;margin:22px 0 8px}
+p{margin-bottom:16px}
+.lead{font-family:var(--serif);font-style:italic;font-size:22px;color:var(--soft);line-height:1.45}
+.rule{height:2px;background:linear-gradient(90deg,var(--blue),transparent);margin:8px 0 22px}
+.alt{background:var(--paper2)}
+ul.checks{list-style:none;margin:18px 0}
+ul.checks li{padding:9px 0 9px 34px;position:relative;border-bottom:1px dotted var(--rule)}
+ul.checks li::before{content:"⛳";position:absolute;left:0;top:9px;font-size:17px}
+.stack{border:2px solid var(--green);border-radius:16px;overflow:hidden;margin:24px 0}
+.stack .row{display:flex;justify-content:space-between;gap:14px;padding:15px 18px;border-bottom:1px solid var(--rule);background:#fff}
+.stack .row:nth-child(even){background:#FCFBF7}
+.stack .row .v{font-weight:700;color:var(--green);white-space:nowrap}
+.stack .total{background:var(--gtint);font-family:var(--serif);font-size:22px;display:flex;justify-content:space-between;padding:16px 18px}
+.stack .total s{color:var(--soft);font-size:17px}
+.bonus{background:var(--btint);border-left:5px solid var(--blue);border-radius:0 12px 12px 0;padding:16px 20px;margin:14px 0}
+.bonus b{color:var(--blue)}
+.quote{font-family:var(--serif);font-style:italic;font-size:23px;line-height:1.45;color:var(--green);border-left:4px solid var(--blue);padding-left:20px;margin:26px 0}
+.faq p{margin-bottom:20px}
+.faq b{color:var(--green)}
+.guarantee{background:var(--gtint);border:2px solid var(--green);border-radius:16px;padding:22px 24px;margin:26px 0}
+.guarantee h3{margin-top:0}
+.sig{font-family:var(--serif);font-style:italic;font-size:22px;color:var(--green);margin-top:18px}
+.foot{padding:34px 0 60px;font-size:13.5px;color:var(--soft);border-top:1px solid var(--rule)}
+.center{text-align:center}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">Walt Fairbanks · Golf with Walt</div>
+    <h1>Play better after 60 — by swinging smarter, not harder.</h1>
+    <div class="sub">The Senior Golfer's Playbook: 40 short chapters, 12 illustrated drills, and a calmer way around the course. Kind to backs, knees, and hands.</div>
+    <div class="meta">Instant PDF download · big readable print · 15-day money-back guarantee</div>
+    <div class="price"><s>$37</s>$19<span class="tag">launch price</span></div>
+    <a class="btn" href="{PAY}">Get the Playbook — $19<small>Instant download · secure checkout by Hotmart</small></a>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <p class="lead">You didn't lose your swing. You lost the version of it that ran on a 35-year-old's back — and nobody handed you the manual for the model you drive now.</p>
+    <div class="rule"></div>
+    <p>I'm Walt. Forty-some years of public-course golf, and somewhere in my late fifties the game I knew started leaving without saying goodbye. Drives got shorter. Backs got louder. The fix everybody sold me — swing harder, buy louder equipment — made both worse.</p>
+    <p>What actually worked was the opposite: <strong>smoother tempo, smarter targets, a short game that does the scoring, and a setup that respects the body I actually have.</strong> I wrote all of it down, numbered it, and drew the drills. That's this book.</p>
+    <div class="quote">"The backswing is a question. The downswing is the answer. Don't shout the answer."</div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>What's inside the playbook</h2>
+    <ul class="checks">
+      <li><strong>Part I — The Smooth Swing.</strong> Where senior distance really comes from: sequence, width, tempo, and a grip pressure of four out of ten.</li>
+      <li><strong>Part II — Contact &amp; Consistency.</strong> Ball position that fits a senior swing, low-point control, and finding the sweet spot more often.</li>
+      <li><strong>Part III — The Body.</strong> The five-minute warm-up, playing with a cranky back, knee-friendly power, grips that don't ache — comfort first, always.</li>
+      <li><strong>Part IV — Short Game = Scoring.</strong> The one chip that does everything, the clock system for wedges, and putting that starts with distance.</li>
+      <li><strong>Part V — The Thinking Golfer.</strong> The right tees, the scorecard audit, the par-five formula, and the eighty-percent escape rule.</li>
+      <li><strong>Part VI — Equipment After Sixty.</strong> The honest truth about senior shafts, loft, and softer balls — no brands pushed, real 2026 prices.</li>
+      <li><strong>Part VII — The Practice Plans.</strong> The twenty-minute habit, the six-week sharpening plan, and the whole playbook on one page.</li>
+      <li><strong>The Twelve Drills, D1–D12.</strong> Each with a diagram. Most work in a hallway in January.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Everything you get today</h2>
+    <div class="stack">
+      <div class="row"><span>The Senior Golfer's Playbook — 40 chapters, 12 illustrated drills</span><span class="v">$19</span></div>
+      <div class="row"><span>The On-Course Cheat Sheet — the whole book on one printable card</span><span class="v">$9</span></div>
+      <div class="row"><span>The Senior Equipment Checklist — audit your bag with honest eyes</span><span class="v">$9</span></div>
+      <div class="row"><span>The Practice Log — six weeks of twenty-minute sessions</span><span class="v">$9</span></div>
+      <div class="row"><span>The Plain-English Golf Glossary — every term, in words a friend would use</span><span class="v">$9</span></div>
+      <div class="total"><span>Today</span><span><s>$37 value</s> <strong>$19</strong></span></div>
+    </div>
+    <a class="btn" href="{PAY}">Get everything for $19<small>Instant download · PDF · read on any phone, tablet or printer</small></a>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Fair questions</h2>
+    <div class="faq">
+      <p><b>I'm in my seventies and stiff as a fence post. Is this for me?</b><br>Especially. Every technique in the book assumes reduced rotation and honest joints — and where standard instruction fights senior comfort, comfort wins. Part III exists precisely for backs, knees, and hands.</p>
+      <p><b>Will this add 30 yards like the videos promise?</b><br>No, and I won't pretend otherwise. Most golfers find smoother tempo and cleaner contact give some distance back — how much is yours to discover. What the book will change immediately is how many shots you waste. That's where scores live.</p>
+      <p><b>Do I need a gym, a launch monitor, or new clubs?</b><br>No. You need a pencil, ten minutes here and there, and maybe $30 of honest hardware over time — the book tells you exactly which small purchases matter and which don't. No brands, ever.</p>
+      <p><b>What format is it?</b><br>PDF, in big readable print, plus the four bonus PDFs. Download instantly, read on any phone or tablet, print the checklists and the log.</p>
+      <p><b>What if it's not for me?</b><br>Fifteen days, full refund, no questions, no forms with tiny boxes.</p>
+    </div>
+    <div class="guarantee">
+      <h3>The first-range-day guarantee</h3>
+      <p>Read Part I tonight — it's short on purpose. Take the counting drill (D1) to the range this week. If your ball flight isn't noticeably calmer by the end of one bucket, ask for every penny back within 15 days. The refund takes less time than a three-putt.</p>
+    </div>
+    <a class="btn" href="{PAY}">Get the Playbook — $19<small>15-day money-back guarantee</small></a>
+    <p class="sig">See you on the fairway. — Walt</p>
+  </div>
+</section>
+
+<div class="foot">
+  <div class="wrap center">
+    <p>© 2026 Golf with Walt · The Senior Golfer's Playbook</p>
+    <p>This book is golf instruction, not medical advice. If a movement causes pain that is sharp, radiating, numbing, or persistent, stop and talk to your doctor. Results vary golfer to golfer; no specific distance or scoring outcomes are promised.</p>
+  </div>
+</div>
+
+</body>
+</html>
